@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rydberg Equation Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="wavelengthRadio" name="variables" checked>
+  <label for="wavelengthRadio">Wavelength</label>
+
+  <input type="radio" id="principlequantumnumberoffinalstateRadio" name="variables">
+  <label for="principlequantumnumberoffinalstateRadio">Principle quantum number of final state</label>
+
+  <input type="radio" id="principlequantumnumberofinitialstateRadio" name="variables">
+  <label for="principlequantumnumberofinitialstateRadio">Principle quantum number of initial state</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">(nf) Principle quantum number of final state</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">(ni) Principle quantum number of initial state</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
